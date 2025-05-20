@@ -67,14 +67,11 @@ try:
                 logger.warning("پیام خالی دریافت شد")
                 return
             
-            new_caption = ""
-            if message.caption:
-                first_line = message.caption.split('\n')[0]
-                new_caption = f"{first_line}\n\nenjoy hot webcams👙👇\n\nCamHot 🔥 ( @CamHotVIP )"
+            new_caption = "🥕 Art of Nude: @NudeForArt\n\n🍇 Hot WebCams: @CamHotVIP"
             
             await message.copy(
                 dest,
-                caption=new_caption if new_caption else None
+                caption=new_caption
             )
             logger.info(f"پیام {message.id} با موفقیت ارسال شد")
         except Exception as e:
