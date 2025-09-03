@@ -67,7 +67,7 @@ try:
                 logger.warning("پیام خالی دریافت شد")
                 return
             
-            new_caption = "**🥕 Art of Nude: @NudeForArt\n\n🍇 Hot WebCams: @CamHotVIP**"
+            new_caption = "**🥕 Art of Nude: @NudeForArt\n\n🍇 Hot WebCams: @CamHot_VIP**"
             
             await message.copy(
                 dest,
